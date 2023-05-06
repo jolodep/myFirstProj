@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+.wrapper {
+    width: 100%;
+    height: 300vh;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+/* header design start here */
+.header {
+    width: 100%;
+    height: 100vh;
+}
+.header .navbar {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+    margin: 0px auto;
+}
+/* title design */
+.header .navbar h1 {
+    font-size: 60px;
+    color: white;
+}
+.header .navbar h1 a {
+    text-decoration: none;
+    color: orange;
+}
+/* navlist design */
+.header .navbar .navlist ul li {
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    padding: 2px 10px;
+}
+.header .navbar .navlist ul li a {
+    text-decoration: none;
+    color: white;
+    transition: .4s;
+}
+.header .navbar .navlist ul li a:hover {
+    color: orange;
+}
+/* front image design */
+
+/* header design end here */
+
+/* 1st page main content design starts here */
+.front-content {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.front-content .left-side,
+.front-content .right-side {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    padding: 50px;
+}
+/* css explanation design */
+.front-content .left-side {
+    color: rgb(199, 199, 199);
+}
+.front-content .left-side h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.front-content .left-side h3 .letter{
+    color: orange;
+}
+/* css image design */
+.front-content .right-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 1st page main content design ends here */
+
+/* footer design start here*/
+
+.footer {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50vh;
+}
+.footer .ft-left-side,
+.footer .ft-right-side {
+    width: 50%;
+    height: 100%;
+    color: white;
+    padding-top: 50px;
+}
+.footer .ft-left-side {
+    padding: 100px 50px 50px 50px;
+    color: rgb(202, 202, 202);
+}
+.footer .ft-left-side h4 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.footer .ft-right-side {
+    display: flex;
+    flex: 33%;
+    justify-content: space-between;
+}
+.footer .ft-right-side p {
+    margin-bottom: 20px;
+    color: rgb(202, 202, 202);
+}
+.footer .ft-right-side ul li {
+    list-style-type: none;
+    padding-top: 3px;
+}
+.footer .ft-right-side ul li a {
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+    font-weight: 400;
+}
+/* footer design end here*/
+
+
+
+
+/* resources design here */
+.resource-wrapper {
+    width: 100%;
+    height: 350vh;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.resource-footer {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100vh;
+}
+.resource-footer .ft-left-side,
+.resource-footer .ft-right-side {
+    width: 50%;
+    height: 100%;
+    color: white;
+    padding-top: 50px;
+}
+.resource-footer .ft-left-side {
+    padding: 100px 50px 50px 50px;
+    color: rgb(202, 202, 202);
+}
+.resource-footer .ft-left-side h4 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.resource-footer .ft-right-side {
+    display: flex;
+    flex: 33%;
+    justify-content: space-between;
+}
+.resource-footer .ft-right-side p {
+    margin-bottom: 20px;
+    color: rgb(202, 202, 202);
+}
+.resource-footer .ft-right-side ul li {
+    list-style-type: none;
+    padding-top: 3px;
+}
+.resource-footer .ft-right-side ul li a {
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+    font-weight: 400;
+}
+.resource-header {
+    width: 100%;
+    height: 100vh;
+}
+.resource-header img {
+    width: 40%;
+    margin-top: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.resource-header .navbar {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+    margin: 0px auto;
+}
+.resource-header .navbar {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+    margin: 0px auto;
+}
+/* title design */
+.resource-header .navbar h1 {
+    font-size: 60px;
+    color: white;
+}
+.resource-header .navbar h1 a {
+    text-decoration: none;
+    color: orange;
+}
+/* navlist design */
+.resource-header .navbar .navlist ul li {
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    padding: 2px 10px;
+}
+.resource-header .navbar .navlist ul li a {
+    text-decoration: none;
+    color: white;
+    transition: .4s;
+}
+.resource-header .navbar .navlist ul li a:hover {
+    color: orange;
+}
+
+.resource {
+    width: 100%;
+    height: 100vh;
+}
+.resource h3 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(214, 214, 214);
+    margin-bottom: 100px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+.container .row {
+    display: flex;
+    justify-content: space-between;
+}
+.container .row .boxes {
+    height: 300px;
+    width: 100px;
+    flex-basis: 30%;
+    border: 1px solid whitesmoke;
+}
+.bg {
+    background-color: rgba(190, 146, 64, 0.781);
+    width: 100%;
+    height: 150px;
+    margin-top: 75px;
+    align-items: center;
+}
+.bg h4 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.bg p {
+    color: rgb(216, 216, 216);
+    padding: 5px;
+    text-align: center;
+}
+.btn {
+    width: 100%;
+    height: 75px;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border: 0px solid white;
+    transition: .5s;
+}
+.btn:hover {
+    background-color: rgba(190, 146, 64, 0.781);
+}
+
+
+
+
+/* about us content */
+.about-us {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    text-align: left;
+    color: rgb(207, 207, 207);
+    padding: 0 100px;
+}
+.about-img {
+    margin-top: 150px;
+}
+.about-us h3 {
+    font-weight: 500;
+    font-size: 30px;
+    padding: 50px 0 0 0;
+}
+.about-us p {
+    margin: 20px 0;
+}
